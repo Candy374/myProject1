@@ -1,0 +1,14 @@
+{
+  "name": "program1",
+  "version": "1.0.0",
+  "description": "test programe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.2"
+  }
+}
