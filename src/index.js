@@ -4,13 +4,10 @@
 import Vue from 'vue';
 import App from './App.vue';
 
-var vm = new Vue({
+new Vue({
     el: '#app',
-    // 选项
-    data: {
-        msg: 'test'
-    },
-    render: function(h) {
+    render: h => {
         return h(App);
     }
+
 })
